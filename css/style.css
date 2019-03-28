@@ -367,7 +367,6 @@ canvas {
 
 .skills .progress-bar {
   background-color: #164E71;
-  ;
   position: relative;
   overflow: visible;
   box-sizing: border-box;
@@ -376,7 +375,6 @@ canvas {
   text-align: left;
   color: #fff;
   background-color: #164E71;
-  ;
   box-shadow: none;
   font-size: 10px;
   line-height: 20px;
