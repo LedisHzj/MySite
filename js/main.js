@@ -206,20 +206,51 @@
 
 
         var skill = jQuery('.skills');
-        var prog80 = $('.prog-80');
+        var prog95 = $('.prog-95');
+        var prog89 = $('.prog-89');
+        var prog96 = $('.prog-96');
+        var prog83 = $('.prog-83');
         var prog90 = $('.prog-90');
-        var prog86 = $('.prog-86');
+        var prog77 = $('.prog-77');
         var prog94 = $('.prog-94');
         skill.waypoint(function() {
 
-            prog80.css({
-                "width": "80%",
+            prog95.css({
+                "width": "95%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '80%'
+            offset: '95%'
         });
         skill.waypoint(function() {
+
+            prog89.css({
+                "width": "89%",
+                "transition": "2s ease-in"
+            });
+        }, {
+            offset: '89%'
+        });
+        skill.waypoint(function() {
+
+            prog96.css({
+                "width": "96%",
+                "transition": "2s ease-in"
+            });
+        }, {
+            offset: '96%'
+        });
+        skill.waypoint(function () {
+
+            prog83.css({
+                "width": "83%",
+                "transition": "2s ease-in"
+            });
+        }, {
+            offset: '83%'
+
+        });
+        skill.waypoint(function () {
 
             prog90.css({
                 "width": "90%",
@@ -227,15 +258,17 @@
             });
         }, {
             offset: '90%'
-        });
-        skill.waypoint(function() {
 
-            prog86.css({
-                "width": "86%",
+        });
+        skill.waypoint(function () {
+
+            prog77.css({
+                "width": "77%",
                 "transition": "2s ease-in"
             });
         }, {
-            offset: '86%'
+            offset: '77%'
+
         });
         skill.waypoint(function() {
 
